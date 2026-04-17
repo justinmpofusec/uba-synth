@@ -1,0 +1,2 @@
+username,window_id,start_time,end_time,failed_logins,successful_logins,sudo_count,session_open_count,invalid_user_attempts,external_ip_count,avg_hour,std_hour,distinct_users,distinct_ips,off_hours_events,duration_seconds,label
+dcarter,dcarter_1_0,2026-04-16 03:00:00,2026-04-16 09:01:36,0,9,0,9,0,0,8.41,1.8,1,1,1,21696,1

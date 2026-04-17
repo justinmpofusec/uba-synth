@@ -1,0 +1,17 @@
+dataset_type,user_id,full_name,username,role,department,access_level,timestamp,date,ip_address,login_time,session_duration_minutes,command_type,resource_accessed,privilege_level,event_frequency
+abnormal,1,Daniel Carter,dcarter,Senior Systems Administrator,IT Infrastructure,Root / sudo,2026-04-16 09:00:00,2026-04-16,192.168.1.10,09:00:00,1,login,system,3,10
+abnormal,1,Daniel Carter,dcarter,Senior Systems Administrator,IT Infrastructure,Root / sudo,2026-04-16 09:00:12,2026-04-16,192.168.1.10,09:00:00,1,login,system,3,10
+abnormal,1,Daniel Carter,dcarter,Senior Systems Administrator,IT Infrastructure,Root / sudo,2026-04-16 09:00:24,2026-04-16,192.168.1.10,09:00:00,1,login,system,3,10
+abnormal,1,Daniel Carter,dcarter,Senior Systems Administrator,IT Infrastructure,Root / sudo,2026-04-16 09:00:36,2026-04-16,192.168.1.10,09:00:00,1,login,system,3,10
+abnormal,1,Daniel Carter,dcarter,Senior Systems Administrator,IT Infrastructure,Root / sudo,2026-04-16 09:00:48,2026-04-16,192.168.1.10,09:00:00,1,login,system,3,10
+abnormal,1,Daniel Carter,dcarter,Senior Systems Administrator,IT Infrastructure,Root / sudo,2026-04-16 09:01:00,2026-04-16,192.168.1.10,09:00:00,1,login,system,3,10
+abnormal,1,Daniel Carter,dcarter,Senior Systems Administrator,IT Infrastructure,Root / sudo,2026-04-16 09:01:12,2026-04-16,192.168.1.10,09:00:00,1,login,system,3,10
+abnormal,1,Daniel Carter,dcarter,Senior Systems Administrator,IT Infrastructure,Root / sudo,2026-04-16 09:01:24,2026-04-16,192.168.1.10,09:00:00,1,login,system,3,10
+abnormal,1,Daniel Carter,dcarter,Senior Systems Administrator,IT Infrastructure,Root / sudo,2026-04-16 09:01:36,2026-04-16,192.168.1.10,09:00:00,1,login,system,3,10
+abnormal,1,Daniel Carter,dcarter,Senior Systems Administrator,IT Infrastructure,Root / sudo,2026-04-16 09:01:48,2026-04-16,192.168.1.10,09:00:00,1,login,system,3,10
+abnormal,1,Daniel Carter,dcarter,Senior Systems Administrator,IT Infrastructure,Root / sudo,2026-04-16 03:00:00,2026-04-16,192.168.1.10,03:00:00,5,chmod 777 /etc/shadow,sensitive admin config,3,1
+abnormal,2,Sarah Ahmed,sahmed,Cybersecurity Analyst,Security Operations (SOC),Read + Monitoring Tools,2026-04-16 13:10:00,2026-04-16,192.168.1.20,13:10:00,10,sudo systemctl restart ssh,admin service,2,1
+abnormal,2,Sarah Ahmed,sahmed,Cybersecurity Analyst,Security Operations (SOC),Read + Monitoring Tools,2026-04-16 13:20:00,2026-04-16,192.168.1.20,13:20:00,10,cat /etc/sudoers,restricted admin config,2,1
+abnormal,3,James Walker,jwalker,Business Operations Associate,Operations,Standard User,2026-04-16 02:00:00,2026-04-16,192.168.1.30,02:00:00,20,login,system,1,1
+abnormal,3,James Walker,jwalker,Business Operations Associate,Operations,Standard User,2026-04-16 02:03:00,2026-04-16,192.168.1.30,02:03:00,20,cat /etc/passwd,restricted file,1,1
+abnormal,3,James Walker,jwalker,Business Operations Associate,Operations,Standard User,2026-04-16 02:05:00,2026-04-16,192.168.1.30,02:05:00,20,rapid file access,/home/jwalker/docs,1,25
